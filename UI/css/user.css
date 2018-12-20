@@ -83,14 +83,12 @@ img {
 }
 #user_mid_wrapper {
     width: 100%;
-    /*background: url(../images/tooplate_mid.png) no-repeat center top*/
 }
 #user_mid_sub {
     margin: 0 auto;
     padding: 0 10px;
     width: 960px;
     padding: 40px 0 20px;
-    background: url(../images/tooplate_mid.png) no-repeat center top
 }
 #user_mid_home {
     margin: 0 auto;
@@ -98,7 +96,6 @@ img {
     width: 960px;
     height: 310px;
     padding: 40px 0;
-    /*background: url(../images/tooplate_mid.png) no-repeat center*/
 }
 #slider-wrapper {
     float: left;
@@ -106,13 +103,12 @@ img {
     height: 270px;
     margin: 0 auto;
     padding: 24px;
-    /*background: url(../images/tooplate_slider_frame.png) no-repeat */
 }
 #mid_title {
     font-size: 34px;
     font-weight: 400;
     line-height: 34px;
-    color: #fff;
+    color: blue;
     margin-bottom: 30px;
 }
 #mid_left {
@@ -194,19 +190,19 @@ img {
 .col_l {
     margin: 0
 }
-#user_cr_bar_wrapper {
+#user_footer_wrapper {
     width: 100%;
     border-top: 1px solid #423535;
     background: #151010
 }
-#user_cr_bar {
+#user_footer {
     width: 960px;
     margin: 0 auto;
     padding: 15px 10px;
     color: #594747;
     text-align: center
 }
-#user_cr_bar a {
+#user_footer a {
     color: #594747;
 }
 #content {
