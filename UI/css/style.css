@@ -1,0 +1,112 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #595858;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+    background-color: white;
+}
+.cleaner {
+    clear: both
+}
+.container {
+    margin: 10px auto;
+    max-width: 980px;
+    padding: 10px 0;
+    height: 100%;
+    background-color: green;
+    background-size: cover;
+    color: #fff;
+    color: black;
+}
+.login {
+    max-width: 280px;
+    min-height: 500px;
+    margin: 30px auto;
+    background-color: rgba(10, 10, 10, .68);
+}
+.login-icon-field {
+    height: 250px;
+    width: 100%;
+}
+.login-form {
+    padding: 8px 20px 20px;
+    height: 120px;
+    width: 100%;
+}
+.email-row {
+    position: relative;
+    color: black;
+    height: 40px;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+}
+.password-row {
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid;
+}
+input {
+    position: absolute;
+    width: 195px;
+    height: 30px;
+    margin: 5px 0;
+    background: transparent;
+    border: none;
+}
+input:focus, button:focus {
+    outline: none;
+}
+input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, .4);
+}
+input::-moz-placeholder {
+    color: rgba(255, 255, 255, .4);
+}
+.to-action {
+    margin: 22px 0;
+    height: 130px;
+    width: 100%;
+}
+button {
+    display: block;
+    width: 240px;
+    height: 40px;
+    padding: 0;
+    margin: 10px 20px 10px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #22c08a;
+    border: none;
+    border-radius: 20px;
+    transition: background-color .10s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+button:hover {
+    background-color: #26d69a;
+}
+button:active {
+    background-color: #1eaa7a;
+}
+p {
+    display: inline-block;
+    width: 200px;
+    margin: 0 40px;
+    font-size: .8rem;
+    color: rgba(255, 255, 255, .4);
+    /
+}
+p a {
+    color: #fff;
+}
+label, p a:hover {
+    -webkit-cursor: pointer;
+    cursor: pointer;
+}
