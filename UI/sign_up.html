@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <title>
+                Questionner
+            </title>
+            <link href="css/style.css" rel="stylesheet">
+            </link>
+        </meta>
+    </head>
+</html>
+<body>
+    <div class="container">
+        <form id="msform">
+            <!-- progressbar -->
+            <ul id="progressbar">
+                <li class="active">
+                    Account Setup
+                </li>
+                <li>
+                    Profile Setup
+                </li>
+                <li>
+                    Meetup Interests
+                </li>
+            </ul>
+            <!-- fieldsets -->
+            <fieldset>
+                <h2 class="fs-title">
+                    Create your account
+                </h2>
+                <h3 class="fs-subtitle">
+                    Your Logins
+                </h3>
+                <input class="email-row" name="email" placeholder="Email" type="text"/>
+                <input class="password-row" name="pass" placeholder="Password" type="password"/>
+                <input class="password-row" name="cpass" placeholder="Confirm Password" type="password"/>
+                <button class="next action-button" name="next" type="button">
+                    Next
+                </button>
+            </fieldset>
+            <fieldset>
+                <h2 class="fs-title">
+                    Profile details
+                </h2>
+                <h3 class="fs-subtitle">
+                    Your Details
+                </h3>
+                <input class="hidden" id="profile-image-upload" type="file">
+                    <div class="profile-image">
+                        <img alt="click here to browser your picture" src="img/img.png"/>
+                    </div>
+                    <input class="email-row" name="email" placeholder="Names" type="text"/>
+                    <input class="email-row" name="email" placeholder="Address" type="text"/>
+                    <button class="previous action-button" name="next" type="button">
+                        Previous
+                    </button>
+                    <button class="next action-button" name="next" type="button">
+                        Next
+                    </button>
+                </input>
+            </fieldset>
+            <fieldset>
+                <h2 class="fs-title">
+                    Meetup preferences
+                </h2>
+                <h3 class="fs-subtitle">
+                    Choose your Meetup details
+                </h3>
+                <div>
+                    <select id="select-meetup-type" multiple="multiple">
+                        <option value="1">
+                            NETWORKING
+                        </option>
+                        <option value="2">
+                            JAVA
+                        </option>
+                        <option value="3">
+                            IoT
+                        </option>
+                        <option value="4">
+                            C++
+                        </option>
+                        <option value="5">
+                            WEB Programming
+                        </option>
+                    </select>
+                </div>
+                <button class="previous action-button" name="next" type="button">
+                    Previous
+                </button>
+                <button class="submit action-button" name="submit" type="submit">
+                    <a href="user.html">
+                        Submit
+                    </a>
+                </button>
+            </fieldset>
+        </form>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+        </script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js">
+        </script>
+        <script src="js/index.js">
+        </script>
+    </div>
+</body>
